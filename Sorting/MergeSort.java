@@ -1,4 +1,4 @@
-package Data_Structures_Algorithms.Sorting;
+package Sorting;
 import java.util.Arrays;
 /**
  * Merge Sort is a divide-and-conquer algorithm that sorts an array by recursively
