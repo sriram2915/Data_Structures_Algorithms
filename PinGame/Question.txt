@@ -1,0 +1,537 @@
+1. Find PIN:(Correct)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN=((MAX digit of input1 X MIN digit of input1) X (MAX digit of input2 X MIN digit of input2) X (MAX digit of input3 X MIN digit of input3)) - input 4.
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38, 
+then PIN=((5x1)x(5x2)x(5x1))-38 = (5x10x5) - 38 = 212
+
+Assuming that the 4 numbers are passed to the given function, complete the given function to find and return the PIN.
+
+___________________________________________________________________________
+
+2. Find PIN:(Correct)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+If input4 is EVEN, the PIN = (sum of EVEN POSITIONED digits of input1 input2 input3) - (sum of ODD POSITIONED digits of input1 and input2 and input3)
+If input4 is ODD, the PIN = (sum of ODD POSITIONED digits of input1 input2 input3) - (sum of EVEN POSITIONED digits of input1 and input2 and input3)
+
+Example1 - If input4=38(an EVEN number) and if input1=3521, input2=2452, input3=1352, then PIN =(3+2+2+5+1+5)-(5+1+4+2+3)=1
+
+Example2 - If input4 =37 (an ODD number) and if input1=3521, input2=2452, input3=1352, then PIN = (5+1+4+2+2) - 
+(3+2+2+5+1+5) = 14 - 18 = -4
+
+
+
+
+
+
+
+
+
+3. Find PIN:(Corrected)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN = ((smallest digit in input1) x (LARGEST digit in input2) x (smallest digit in input3)) - input4
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38, then PIN=(1x5x1)-38=-33
+
+Assuming that the 4 numbers are passed to the given function, Complete the function to find and return the PIN.
+
+___________________________________________________________________________
+
+
+
+4. Find PIN:(Correct)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN=((MAX digit of input1 X MIN digit of input1) + (MAX digit of input2 X MIN digit of input2) + (MAX digit of input3 X MIN digit of input3)) - input 4.
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38, 
+then PIN=((5x1)+(5x2)+(5x1))-38 = (20 - 38) = -18.
+
+Assuming that the 4 numbers are passed to the given function, complete the given function to find and return the PIN.
+
+5. Find PIN:(Corrected)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+If input4 is EVEN, the PIN = (sum of even digits in input1, input2 and input3)
+If input4 is ODD, the PIN = (sum of odd digits in input1, input2 and input3)
+
+Example1 - If input4=38(an EVEN number) and if input1=3521.
+input2= 2452, input3=1352, then PIN=(2+2+4+2+2)=12
+
+Example2 - If input4=37(an ODD number) and if input1=3521.
+input2=2452, input3=1352, then PIN=(3+5+1+5+1+3+5)=23
+
+___________________________________________________________________________
+
+
+6. Find PIN:(Corrected)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN=((smallest digit in input1)x(Largest digit in input2)x(Largest digit in input3))+input4
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38. then PIN=(1x5x5)+38=63
+
+Assuming that the 4 numbers are passed to the given function. Complete the function to find and return the PIN.
+
+
+
+
+
+
+7. Find PIN:(Corrected)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN=((smallest digit in input1)x(smallest digit in input2)x(smallest digit in input3))+input4
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38. then PIN=(1x2x1)+38=40
+
+Assuming that the 4 numbers are passed to the given function. Complete the function to find and return the PIN.
+
+
+
+___________________________________________________________________________
+
+
+
+8. Find PIN:(Corrected)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN=((largest digit in input1)x(largest digit in input2)x(largest digit in input3))+input4
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38. then PIN=(5x5x5)+38=163
+
+Assuming that the 4 numbers are passed to the given function. Complete the function to find and return the PIN.
+
+
+
+
+
+
+9. Create PIN using three given input numbers(Corrected)
+
+"Secure Assets Private Ltd", a small company that deals with lockers has recently started manufacturing digital locks which can be locked and unlocked using PINs (Passwords).
+You have been asked to work onn the module that is expected to generate PINs using three input numbers.
+Assumptions: The three given input numbers will always consist of four digits each i.e. each of them will be in the range >=1000 and <=9999
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+Below are the rules for generating the PIN-
+1. The PIN should made up of 4 digits.
+2. The THOUSAND position of the PIN should be the digit with maximum frequency i.e. the digit that occurs the most number of times across the three input numbers. if there are more than one digit that occur with max frequency, choose the largest of them.
+3. The HUNDRED position of the PIN should be the digit with minimum frequency 
+i.e. the digit that occurs the least number of times across the three input numbers. if there are more than one digit that occur with min frequency, choose the smallest of them.
+4. The TENS position of the PIN should be the largest digit across the three input numbers.
+5. The UNIT(ONES) position of the PIN should be the smallest digit across the three input numbers.
+
+Example1-
+input1=1724
+input2=5283
+input3=1937
+then, PIN=7491
+Explanation: Below is an expression of how the PIN has been formed in this example.
+1. There are four digits '1','2','3' and '7' that occur two times each. The largest out of them is '7', so 7 occupies the thousands position of the pin.
+2. There are four digits '4','5','8' and '9' that occur once each. The smallest out of them is '4', so 4 occupies the hundreds position of the pin.
+3. The largest digit across the three input numbers is '9', so 9 occupies the tens position of the pin.
+4. The smallest digit across the three input numbers is '1', so 1 occupies the units position of the pin.
+
+Example2-
+input1=8530
+input2=5620
+input3=7532
+then, PIN=5680
+
+
+
+
+
+
+10. Create PIN using three given input numbers
+
+"Secure Assets Private Ltd", a small company that deals with lockers has recently started manufacturing digital locks which can be locked and unlocked using PINs (Passwords).
+You have been asked to work onn the module that is expected to generate PINs using three input numbers.
+Assumptions: The three given input numbers will always consist of four digits each i.e. each of them will be in the range >=1000 and <=9999
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+Below are the rules for generating the PIN-
+1. The PIN should made up of 4 digits.
+2. The THOUSAND position of the PIN should be the smallest digit across the three input numbers.
+3. The HUNDRED position of the PIN should be the largest digit across the three input numbers.
+4. The TENS position of the PIN should be the digit with minimum frequency i.e. the digit that occurs the least number of times across the three input numbers. If there are more than one digit that occur with min frequency.
+choose the smallest of them.
+5. The ONES position of the PIN should be the digit with maximum frequency i.e. the digit that occurs the most number of times across three input numbers. If there are more than one digit that occur with frequency, choose the largest of them.
+
+Example1- 
+input1=1724
+input2=5283
+input3=1937
+then, PIN=1947
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11.  Find PIN:
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+if input4 is EVEN, the PIN =(sum of even digits in input1, input2 and input3)-(sum of odd digits in input1,input2 and input3)
+if input4 is ODD, the PIN=(sum of odd digits in input1, input2 and input3)-(sum of even digits in input1, input2 and input3)
+
+Example1-
+if input4=38(an EVEN number) and if input1=3521, input2=2452, input3=1352. then PIN=(2+2+4+2+2)-(3+5+1+5+1+3+5)=-11
+Example2-
+if input4=37(an ODD number) and if input1=3521,input2=2452, input3=1352, then PIN=(3+5+1+5+1+3+5)-(2+2+4+2+2)=11
+
+Assuming that the 4 numbers are passed to the given function, complete the function to find and return the PIN.
+
+
+Previous year question for DOT NET and JAVA Logical Building1. Find PIN:(Correct)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN=((MAX digit of input1 X MIN digit of input1) X (MAX digit of input2 X MIN digit of input2) X (MAX digit of input3 X MIN digit of input3)) - input 4.
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38, 
+then PIN=((5x1)x(5x2)x(5x1))-38 = (5x10x5) - 38 = 212
+
+Assuming that the 4 numbers are passed to the given function, complete the given function to find and return the PIN.
+
+___________________________________________________________________________
+
+2. Find PIN:(Correct)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+If input4 is EVEN, the PIN = (sum of EVEN POSITIONED digits of input1 input2 input3) - (sum of ODD POSITIONED digits of input1 and input2 and input3)
+If input4 is ODD, the PIN = (sum of ODD POSITIONED digits of input1 input2 input3) - (sum of EVEN POSITIONED digits of input1 and input2 and input3)
+
+Example1 - If input4=38(an EVEN number) and if input1=3521, input2=2452, input3=1352, then PIN =(3+2+2+5+1+5)-(5+1+4+2+3)=1
+
+Example2 - If input4 =37 (an ODD number) and if input1=3521, input2=2452, input3=1352, then PIN = (5+1+4+2+2) - 
+(3+2+2+5+1+5) = 14 - 18 = -4
+
+
+
+
+
+
+
+
+
+3. Find PIN:(Corrected)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN = ((smallest digit in input1) x (LARGEST digit in input2) x (smallest digit in input3)) - input4
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38, then PIN=(1x5x1)-38=-33
+
+Assuming that the 4 numbers are passed to the given function, Complete the function to find and return the PIN.
+
+___________________________________________________________________________
+
+
+
+4. Find PIN:(Correct)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN=((MAX digit of input1 X MIN digit of input1) + (MAX digit of input2 X MIN digit of input2) + (MAX digit of input3 X MIN digit of input3)) - input 4.
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38, 
+then PIN=((5x1)+(5x2)+(5x1))-38 = (20 - 38) = -18.
+
+Assuming that the 4 numbers are passed to the given function, complete the given function to find and return the PIN.
+
+5. Find PIN:(Corrected)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+If input4 is EVEN, the PIN = (sum of even digits in input1, input2 and input3)
+If input4 is ODD, the PIN = (sum of odd digits in input1, input2 and input3)
+
+Example1 - If input4=38(an EVEN number) and if input1=3521.
+input2= 2452, input3=1352, then PIN=(2+2+4+2+2)=12
+
+Example2 - If input4=37(an ODD number) and if input1=3521.
+input2=2452, input3=1352, then PIN=(3+5+1+5+1+3+5)=23
+
+___________________________________________________________________________
+
+
+6. Find PIN:(Corrected)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN=((smallest digit in input1)x(Largest digit in input2)x(Largest digit in input3))+input4
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38. then PIN=(1x5x5)+38=63
+
+Assuming that the 4 numbers are passed to the given function. Complete the function to find and return the PIN.
+
+
+
+
+
+
+7. Find PIN:(Corrected)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN=((smallest digit in input1)x(smallest digit in input2)x(smallest digit in input3))+input4
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38. then PIN=(1x2x1)+38=40
+
+Assuming that the 4 numbers are passed to the given function. Complete the function to find and return the PIN.
+
+
+
+___________________________________________________________________________
+
+
+
+8. Find PIN:(Corrected)
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+PIN=((largest digit in input1)x(largest digit in input2)x(largest digit in input3))+input4
+
+Example - If input1=3521, input2=2452, input3=1352, and input4=38. then PIN=(5x5x5)+38=163
+
+Assuming that the 4 numbers are passed to the given function. Complete the function to find and return the PIN.
+
+
+
+
+
+
+9. Create PIN using three given input numbers(Corrected)
+
+"Secure Assets Private Ltd", a small company that deals with lockers has recently started manufacturing digital locks which can be locked and unlocked using PINs (Passwords).
+You have been asked to work onn the module that is expected to generate PINs using three input numbers.
+Assumptions: The three given input numbers will always consist of four digits each i.e. each of them will be in the range >=1000 and <=9999
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+Below are the rules for generating the PIN-
+1. The PIN should made up of 4 digits.
+2. The THOUSAND position of the PIN should be the digit with maximum frequency i.e. the digit that occurs the most number of times across the three input numbers. if there are more than one digit that occur with max frequency, choose the largest of them.
+3. The HUNDRED position of the PIN should be the digit with minimum frequency 
+i.e. the digit that occurs the least number of times across the three input numbers. if there are more than one digit that occur with min frequency, choose the smallest of them.
+4. The TENS position of the PIN should be the largest digit across the three input numbers.
+5. The UNIT(ONES) position of the PIN should be the smallest digit across the three input numbers.
+
+Example1-
+input1=1724
+input2=5283
+input3=1937
+then, PIN=7491
+Explanation: Below is an expression of how the PIN has been formed in this example.
+1. There are four digits '1','2','3' and '7' that occur two times each. The largest out of them is '7', so 7 occupies the thousands position of the pin.
+2. There are four digits '4','5','8' and '9' that occur once each. The smallest out of them is '4', so 4 occupies the hundreds position of the pin.
+3. The largest digit across the three input numbers is '9', so 9 occupies the tens position of the pin.
+4. The smallest digit across the three input numbers is '1', so 1 occupies the units position of the pin.
+
+Example2-
+input1=8530
+input2=5620
+input3=7532
+then, PIN=5680
+
+
+
+
+
+
+10. Create PIN using three given input numbers
+
+"Secure Assets Private Ltd", a small company that deals with lockers has recently started manufacturing digital locks which can be locked and unlocked using PINs (Passwords).
+You have been asked to work onn the module that is expected to generate PINs using three input numbers.
+Assumptions: The three given input numbers will always consist of four digits each i.e. each of them will be in the range >=1000 and <=9999
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+Below are the rules for generating the PIN-
+1. The PIN should made up of 4 digits.
+2. The THOUSAND position of the PIN should be the smallest digit across the three input numbers.
+3. The HUNDRED position of the PIN should be the largest digit across the three input numbers.
+4. The TENS position of the PIN should be the digit with minimum frequency i.e. the digit that occurs the least number of times across the three input numbers. If there are more than one digit that occur with min frequency.
+choose the smallest of them.
+5. The ONES position of the PIN should be the digit with maximum frequency i.e. the digit that occurs the most number of times across three input numbers. If there are more than one digit that occur with frequency, choose the largest of them.
+
+Example1- 
+input1=1724
+input2=5283
+input3=1937
+then, PIN=1947
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11.  Find PIN:
+You are at Level-1 of a Maths Game.
+You are provided with 4 numbers: input1, input2, input3 and input4 and are expected to find a secret PIN.
+The three numbers input1, input2 and input3 are four digit numbers within the range >=1000 and <=9999. i.e.
+1000<=input1<=9999
+1000<=input2<=9999
+1000<=input3<=9999
+
+input4 is a positive integer number.
+
+if input4 is EVEN, the PIN =(sum of even digits in input1, input2 and input3)-(sum of odd digits in input1,input2 and input3)
+if input4 is ODD, the PIN=(sum of odd digits in input1, input2 and input3)-(sum of even digits in input1, input2 and input3)
+
+Example1-
+if input4=38(an EVEN number) and if input1=3521, input2=2452, input3=1352. then PIN=(2+2+4+2+2)-(3+5+1+5+1+3+5)=-11
+Example2-
+if input4=37(an ODD number) and if input1=3521,input2=2452, input3=1352, then PIN=(3+5+1+5+1+3+5)-(2+2+4+2+2)=11
+
+Assuming that the 4 numbers are passed to the given function, complete the function to find and return the PIN.
+
+
+Previous year question for DOT NET and JAVA Logical Building
